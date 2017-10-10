@@ -8,16 +8,12 @@ namespace gymNotebook.Models
     public class Training
     {
         [Key]
-        public int TrainingId { get; set; }
+        public int TrainingID { get; set; }
 
         [Required(ErrorMessage = "Wprowadz nazwę Treningu"), Display(Name = "Trening"), StringLength(50)]
         public string TrainingName { get; set; }
 
-        public virtual List<TrainingSession> TrainingSessions { get; set; }
+        public virtual ICollection<TrainingSession> TrainingSessions { get; set; }
 
-        public Training()
-        {
-            this.TrainingSessions = new List<TrainingSession>();
-        }
     }
 }

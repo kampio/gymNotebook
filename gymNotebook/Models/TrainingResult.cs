@@ -8,6 +8,9 @@ namespace gymNotebook.Models
 {
     public class TrainingResult
     {
+        [Key]
+        public int ResultID { get; set; }
+
         [Display(Name = "Numer Serii")]
         public int NumberSeries { get; set; }
 
@@ -17,6 +20,14 @@ namespace gymNotebook.Models
         [Display(Name = "Ciężar")]
         public float Weigth { get; set; }
 
+        [Display(Name = "Uwagi"), DataType(DataType.MultilineText)]
+        public string Comments { get; set; }
+
+        public DateTime Datetime { get; set; }
+
+        public int ExerciseID { get; set; }
+
         public virtual Exercise Exercise { get; set; }
+
     }
 }

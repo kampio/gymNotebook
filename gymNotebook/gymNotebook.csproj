@@ -104,23 +104,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201710082028552_InitialCreate.cs" />
-    <Compile Include="Migrations\201710082028552_InitialCreate.Designer.cs">
-      <DependentUpon>201710082028552_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201710082039020_update-database.cs" />
-    <Compile Include="Migrations\201710082039020_update-database.Designer.cs">
-      <DependentUpon>201710082039020_update-database.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201710082058462_Exercises_Table.cs" />
-    <Compile Include="Migrations\201710082058462_Exercises_Table.Designer.cs">
-      <DependentUpon>201710082058462_Exercises_Table.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201710082109210_Naming_Changes.cs" />
-    <Compile Include="Migrations\201710082109210_Naming_Changes.Designer.cs">
-      <DependentUpon>201710082109210_Naming_Changes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Exercise.cs" />
     <Compile Include="Models\MusclePart.cs" />
     <Compile Include="Models\Training.cs" />
@@ -141,20 +124,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201710082028552_InitialCreate.resx">
-      <DependentUpon>201710082028552_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201710082039020_update-database.resx">
-      <DependentUpon>201710082039020_update-database.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201710082058462_Exercises_Table.resx">
-      <DependentUpon>201710082058462_Exercises_Table.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201710082109210_Naming_Changes.resx">
-      <DependentUpon>201710082109210_Naming_Changes.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
