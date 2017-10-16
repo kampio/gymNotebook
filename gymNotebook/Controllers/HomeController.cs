@@ -14,20 +14,20 @@ namespace gymNotebook.Controllers
 
         public ActionResult Index()
         {
-            var training = new Training { TrainingName = "Push-Pull" };
-           // var monSession = new TrainingSession { SessionName = "Poniedziałek" };
-           // var wenSession = new TrainingSession { SessionName = "Środa" };
-            
-           // var podciaganie = new Exercise { ExerciseName = "Podciąganie"};
-           // var plecy = new MusclePart { MuscleName = "Plecy" };
+            //var training = new Training { TrainingName = "Push-Pull" };
+            //var monSession = new TrainingSession { SessionName = "Poniedziałek" };
+            //var wenSession = new TrainingSession { SessionName = "Środa" };
+
+            //var podciaganie = new Exercise { ExerciseName = "Podciąganie" };
+            //var plecy = new MusclePart { MuscleName = "Plecy" };
 
 
-           //// plecy.Exercises.Add(plecy);
-           // training.TrainingSessions.Add(monSession);
-           // training.TrainingSessions.Add(wenSession);
-           // monSession.Exercises.Add(podciaganie);
-            db.Trainings.Add(training);
-            db.SaveChanges();
+            //// plecy.Exercises.Add(plecy);
+            //training.TrainingSessions.Add(monSession);
+            //training.TrainingSessions.Add(wenSession);
+            //monSession.Exercises.Add(podciaganie);
+            //db.Trainings.Add(training);
+            //db.SaveChanges();
             return View();
         }
     }
