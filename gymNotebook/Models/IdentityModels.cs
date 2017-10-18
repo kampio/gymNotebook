@@ -10,8 +10,6 @@ namespace gymNotebook.Models
     {
         public virtual ICollection<Training> Trainings { get; set; }
 
-        public virtual UserData UserData { get; set; }
-
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
             // Element authenticationType musi pasować do elementu zdefiniowanego w elemencie CookieAuthenticationOptions.AuthenticationType

@@ -128,9 +128,11 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\ITrainingRepository.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Concrete\EFTraningRepository.cs" />
     <Compile Include="Concrete\TrainingContext.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -145,10 +147,27 @@
     <Compile Include="Migrations\201710161952575_Login_system.Designer.cs">
       <DependentUpon>201710161952575_Login_system.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710171936090_User-Data-Model.cs" />
+    <Compile Include="Migrations\201710171936090_User-Data-Model.Designer.cs">
+      <DependentUpon>201710171936090_User-Data-Model.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710171947124_User-Data-Model2.cs" />
+    <Compile Include="Migrations\201710171947124_User-Data-Model2.Designer.cs">
+      <DependentUpon>201710171947124_User-Data-Model2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710171949279_User-Data-Model3.cs" />
+    <Compile Include="Migrations\201710171949279_User-Data-Model3.Designer.cs">
+      <DependentUpon>201710171949279_User-Data-Model3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710171952154_User-Data-Model4.cs" />
+    <Compile Include="Migrations\201710171952154_User-Data-Model4.Designer.cs">
+      <DependentUpon>201710171952154_User-Data-Model4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Exercise.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\MusclePart.cs" />
+    <Compile Include="Models\Progress.cs" />
     <Compile Include="Models\Training.cs" />
     <Compile Include="Models\TrainingResult.cs" />
     <Compile Include="Models\TrainingSession.cs" />
@@ -162,6 +181,9 @@
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -171,7 +193,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Account\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201710101948185_InitialCreate.resx">
@@ -179,6 +200,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710161952575_Login_system.resx">
       <DependentUpon>201710161952575_Login_system.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710171936090_User-Data-Model.resx">
+      <DependentUpon>201710171936090_User-Data-Model.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710171947124_User-Data-Model2.resx">
+      <DependentUpon>201710171947124_User-Data-Model2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710171949279_User-Data-Model3.resx">
+      <DependentUpon>201710171949279_User-Data-Model3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710171952154_User-Data-Model4.resx">
+      <DependentUpon>201710171952154_User-Data-Model4.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
