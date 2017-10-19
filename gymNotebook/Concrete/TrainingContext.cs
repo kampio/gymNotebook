@@ -22,6 +22,7 @@ namespace gymNotebook.Concrete
         public DbSet<Exercise> Exercises { get; set; }
         public DbSet<TrainingResult> TrainingResults { get; set; }
         public DbSet<MusclePart> MuscleParts { get; set; }
-
+        public DbSet<UserData> UserData { get; set; }
+        public DbSet<Progress> Progress { get; set; }
     }
 }

@@ -171,6 +171,18 @@
     <Compile Include="Migrations\201710191804464_TrainingChanges8.Designer.cs">
       <DependentUpon>201710191804464_TrainingChanges8.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710191814036_UserData.cs" />
+    <Compile Include="Migrations\201710191814036_UserData.Designer.cs">
+      <DependentUpon>201710191814036_UserData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710191816316_UserData2.cs" />
+    <Compile Include="Migrations\201710191816316_UserData2.Designer.cs">
+      <DependentUpon>201710191816316_UserData2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710191821339_Progress.cs" />
+    <Compile Include="Migrations\201710191821339_Progress.Designer.cs">
+      <DependentUpon>201710191821339_Progress.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Exercise.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -227,6 +239,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710191804464_TrainingChanges8.resx">
       <DependentUpon>201710191804464_TrainingChanges8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710191814036_UserData.resx">
+      <DependentUpon>201710191814036_UserData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710191816316_UserData2.resx">
+      <DependentUpon>201710191816316_UserData2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710191821339_Progress.resx">
+      <DependentUpon>201710191821339_Progress.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
