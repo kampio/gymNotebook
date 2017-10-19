@@ -151,17 +151,25 @@
     <Compile Include="Migrations\201710171936090_User-Data-Model.Designer.cs">
       <DependentUpon>201710171936090_User-Data-Model.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201710171947124_User-Data-Model2.cs" />
-    <Compile Include="Migrations\201710171947124_User-Data-Model2.Designer.cs">
-      <DependentUpon>201710171947124_User-Data-Model2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\201710171949279_User-Data-Model3.cs" />
     <Compile Include="Migrations\201710171949279_User-Data-Model3.Designer.cs">
       <DependentUpon>201710171949279_User-Data-Model3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201710171952154_User-Data-Model4.cs" />
-    <Compile Include="Migrations\201710171952154_User-Data-Model4.Designer.cs">
-      <DependentUpon>201710171952154_User-Data-Model4.cs</DependentUpon>
+    <Compile Include="Migrations\201710182037513_TrainingChanges.cs" />
+    <Compile Include="Migrations\201710182037513_TrainingChanges.Designer.cs">
+      <DependentUpon>201710182037513_TrainingChanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710191733088_TrainingChanges2.cs" />
+    <Compile Include="Migrations\201710191733088_TrainingChanges2.Designer.cs">
+      <DependentUpon>201710191733088_TrainingChanges2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710191749052_TrainingChanges7.cs" />
+    <Compile Include="Migrations\201710191749052_TrainingChanges7.Designer.cs">
+      <DependentUpon>201710191749052_TrainingChanges7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710191804464_TrainingChanges8.cs" />
+    <Compile Include="Migrations\201710191804464_TrainingChanges8.Designer.cs">
+      <DependentUpon>201710191804464_TrainingChanges8.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Exercise.cs" />
@@ -176,6 +184,7 @@
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\AccountViewModels.cs" />
     <Compile Include="ViewModels\ManageViewModels.cs" />
+    <Compile Include="ViewModels\TrainingViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -204,14 +213,20 @@
     <EmbeddedResource Include="Migrations\201710171936090_User-Data-Model.resx">
       <DependentUpon>201710171936090_User-Data-Model.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201710171947124_User-Data-Model2.resx">
-      <DependentUpon>201710171947124_User-Data-Model2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710171949279_User-Data-Model3.resx">
       <DependentUpon>201710171949279_User-Data-Model3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201710171952154_User-Data-Model4.resx">
-      <DependentUpon>201710171952154_User-Data-Model4.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201710182037513_TrainingChanges.resx">
+      <DependentUpon>201710182037513_TrainingChanges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710191733088_TrainingChanges2.resx">
+      <DependentUpon>201710191733088_TrainingChanges2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710191749052_TrainingChanges7.resx">
+      <DependentUpon>201710191749052_TrainingChanges7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710191804464_TrainingChanges8.resx">
+      <DependentUpon>201710191804464_TrainingChanges8.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

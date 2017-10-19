@@ -13,6 +13,10 @@ namespace gymNotebook.Models
         [Required(ErrorMessage = "Wprowadz nazwę Treningu"), Display(Name = "Trening"), StringLength(50)]
         public string TrainingName { get; set; }
 
+        public string UserId { get; set; }
+
+        public virtual ApplicationUser User { get; set; }
+
         public virtual ICollection<TrainingSession> TrainingSessions { get; set; }
 
     }

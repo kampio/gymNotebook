@@ -7,13 +7,13 @@ namespace gymNotebook.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-beta1-60406")]
-    public sealed partial class UserDataModel2 : IMigrationMetadata
+    public sealed partial class TrainingChanges7 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(UserDataModel2));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(TrainingChanges7));
         
         string IMigrationMetadata.Id
         {
-            get { return "201710171947124_User-Data-Model2"; }
+            get { return "201710191749052_TrainingChanges7"; }
         }
         
         string IMigrationMetadata.Source

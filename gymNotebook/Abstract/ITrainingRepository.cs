@@ -9,9 +9,8 @@ namespace gymNotebook.Abstract
 {
     public interface ITrainingRepository
     {
-        IEnumerable<Training> Trainings { get; }
 
-        void SaveTraining(Training training);
+        void AddTraining(Training training, string userID);
 
         Training DeleteTraining(int trainingID);
     }
